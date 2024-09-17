@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: yagnikm/maven-madhosh-docker-agent:replaceImageTag
+        image: yagnikm/maven-madhosh-docker-agent:6
         ports:
         - containerPort: 8080
